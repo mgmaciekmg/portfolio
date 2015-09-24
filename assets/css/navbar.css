@@ -1,0 +1,49 @@
+body {
+  min-height: 2000px;
+  padding-top: 70px;
+  background-color: rgba(205, 221, 41, 0.5);
+}
+
+.jumbotron {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.headerwrap {
+	background: url(../img/header.jpg);
+	background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 800px;
+  top: -20px;
+  position: relative;
+}
+
+.headerwrap .content {
+  width: 60%;
+  height: auto;
+  text-align: center;
+  margin: auto;
+  padding-top: 150px;
+}
+
+.navbar-fixed-top {
+  background-color: rgb(255, 255, 255);
+  height: 50px !important;
+  border-bottom: 1px solid black;
+}
+
+.navbar .navbar-brand {
+  color: rgb(0, 233, 36);
+}
+
+.navbar .navbar-brand a:hover {
+  background-color: white;
+}
+
+ul.nav a { color: rgb(0, 0, 0) !important; }
+ul.nav a:hover {
+  color: rgb(112, 112, 112) !important;
+  border-bottom: 4px solid red;
+}
+ul.dropdown-menu a { color: rgb(0, 0, 0) !important; }
