@@ -22,7 +22,7 @@
   	<meta content='website' property='og:type'>
   	<meta property="article:publisher" content="https://www.facebook.com/cruzzapps">
   	<meta property="article:author" content="https://www.facebook.com/cruzzapps">
-  	<meta property="og:locale" content="en_GB" />
+  	<meta property="og:locale" content="pl_PL" />
 
 	<!--[if IE]><link rel="shortcut icon" href="assets/img/favicon.png"><![endif]-->
     <link rel="shortcut icon" href="assets/img/favicon.png">
@@ -30,19 +30,24 @@
     <link rel="alternate" href="http://www.cruzzapps.com/" hreflang="pl-PL" />
     <title>CruzzApps:com - Web developers</title>
 
-    <!-- Bootstrap core CSS and JS -->
+    <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
     <link href="assets/css/navbar.css" rel="stylesheet">
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/smoothscroll.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Titillium+Web&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
-
-  </head>
+</head>
 
 <body>
+  <!-- FaceBook page plugin. -->
+  <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pl_PL/sdk.js#xfbml=1&version=v2.4&appId=1592473717681028";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+  <!-- Facebook page plugin end. -->
 
   <!-- Fixed navbar -->
 <nav class="navbar navbar-default navbar-fixed-top">
@@ -54,47 +59,150 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Project name</a>
+      <a class="navbar-brand" href="#">CruzzApps:com</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#home" class="smoothScroll">Home</a></li>
-        <li><a href="#about" class="smoothScroll">About us</a></li>
-        <li><a href="#team" class="smoothScroll">Team</a></li>
-        <li><a href="#skills" class="smoothScroll">Skills</a></li>
-        <li><a href="#contact" class="smoothScroll">Contact</a></li>
+        <li><a href="#home" class="smoothScroll"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+        <li><a href="#about" class="smoothScroll"><span class="glyphicon glyphicon-console"></span> O nas</a></li>
+        <li><a href="#team" class="smoothScroll"><span class="glyphicon glyphicon-user"></span> Zespół</a></li>
+        <li><a href="#projects" class="smoothScroll"><span class="glyphicon glyphicon-tower"></span> Projekty</a></li>
+        <li><a href="#contact" class="smoothScroll"><span class="glyphicon glyphicon-phone-alt"></span> Kontakt</a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div>
 </nav>
 
-<div class="headerwrap" id="home">
-  <div class="content">
-    <a href="#about" class="btn btn-primary smoothScroll">Spojrz!</a>
-  </div>
-</div>
+
+    <div class="headerwrap" id="home">
+      <div class="content">
+        <h1>CruzzApps:com - Web Developers</h1>
+        <h2>tworzymy strony z pasją...</h2><br><br><br>
+        <a href="#about" class="btn btn-primary btn-lg smoothScroll">Poznaj nas!</a>
+      </div>
+      <div id="startchange"></div>
+    </div>
 
     <div class="container">
          <div class="jumbotron" id="about">
-            <h1>About us</h1>
-            <p>asasasassa</p>
+            <div class="row">
+              <h2 class="centered">O NAS</h2><hr><br>
+
+              <div class="col-sm-6 centered">
+                <p>Jesteśmy młodym zespołem pasjonującym się nowymi technologiami.
+                Lubimy podejmować wyzwania, szczególnie te związane z internetem, dzięki którym możemy się wiele nauczyć ;)</p>
+              </div>
+
+              <div class="col-sm-6 centered">
+                <p>Tworzymy responsywne strony internetowe pisane w "czystym" html'u oraz w Ruby on Rails.
+                Korzystamy także z technologii takich jak Bootstrap czy JQuery.
+                <br>
+                <br>
+                <img src="assets/img/rails.png" alt="Ruby on Rails" />  <img src="assets/img/html.png" alt="HTML5 + CSS3 +JavaScript" />   <img src="assets/img/jquery.png" alt="jQuery" />   <img src="assets/img/mysql.png" alt="MySQL" /></p>
+                <br>
+                <br>
+              </div>
+
+              <div class="col-lg-offset-2 col-lg-8">
+                <p>Zapraszamy do zapoznania się z zespołem oraz naszymi projektami!</p>
+              </div>
+            </div>
           </div>
 
           <div class="jumbotron" id="team">
-            <h1>Team</h1>
-            <p>asasasassa</p>
+            <div class="row white centered">
+				<h2 class="centered">ZESPÓŁ</h2>
+				<hr>
+				<br>
+				<br>
+				<div class="col-sm-6 centered">
+					<img class="img img-circle" src="assets/img/aga.png" height="120" width="120" alt="">
+					<br>
+					<h4><b>Agnieszka</b></h4>
+					<a href="#" class="icon icon-twitter"></a>
+					<a href="https://www.facebook.com/agnieszka.gontarek.9" class="icon icon-facebook" target="_blank"></a>
+					<a href="http://github.com/gontarek" class="icon icon-github" target="_blank"></a>
+					<p>Jestem studentką informatyki na Politechnice Poznańskiej. Przygodę z programowaniem rozpoczęłam na studiach, lecz wciąż szukam technologii w której mogłabym się odnaleźć. Prywatnie kocham chodzić po górach i gram na saksofonie.</p>
+				</div>
+
+				<div class="col-sm-6 centered">
+					<img class="img img-circle" src="assets/img/maciek.png" height="120" width="120" alt="">
+					<br>
+					<h4><b>Maciej</b></h4>
+					<a href="http://twitter.com/mgmaciekmg" class="icon icon-twitter" target="_blank"></a>
+					<a href="http://www.facebook.com/krusmac" class="icon icon-facebook" target="_blank"></a>
+					<a href="http://github.com/mgmaciekmg" class="icon icon-github" target="_blank"></a>
+					<p>Studiuję elektronikę i telekomunikację na Politechnice Poznańskiej. Pierwsze strony tworzyłem w gimnazjum, wciąż staram się rozwijać swoje umiejętności, aktualnie programując w Ruby on Rails. Prywatnie lubię dbać o swoje roślinki.</p>
+				</div>
+
+			</div>
           </div>
 
-          <div class="jumbotron" id="skills">
-            <h1>Skills</h1>
-            <p>asasasassa</p>
-          </div>
+<!-- PROJEKTY -->
+          <div class="jumbotron" id="projects">
+            <div class="row">
+              <h2 class="centered">PROJEKTY</h2><hr><br>
+              <div class="col-lg-offset-2 col-lg-8">
 
-          <div class="jumbotron" id="contact">
-            <h1>Contact</h1>
-            <p>adsakdjhadkjhdajkhd</p>
+      			    	<div class="grid mask">
+      						<figure>
+      							<img class="img-responsive" src="assets/img/pielgrzymka.png" alt="">
+      							<figcaption>
+      								<h5>UI</h5>
+      								<a href="http://www.pielgrzymka.wlkp.zhr.pl/" target="_blank" data-toggle="modal" class="btn btn-own">Take a Look</a>
+      							</figcaption>
+      						</figure>
+
+    			    	 </div>
+              </div>
+            </div>
+          </div>
+</div>
+
+          <div class="jumbotron contact" id="contact">
+            <div class="container contact">
+              <h2 class="centered" style="color:white;">KONTAKT</h2>
+              <hr>
+              <br>
+              <div class="col-lg-offset-2 col-lg-8">
+              					<p>Dziękujemy za zainteresowanie :)<br />
+              					 Jeśli chciałbyś/chciałabyś zlecić wykonanie witryny lub zaprosić nas do współpracy prosimy o kontakt :)
+                       <br>Wszelkie uwagi dotyczące naszego portfolio również mile widziane. </p>
+              					<h3>Informacje kontaktowe</h3>
+              					<p><span class="home">cruzzapps:com</span><br />
+              					   <span class="icon icon-phone"></span> <a href="tel:+48731669664">+48 731 669 664</a><br />
+              					   <span class="icon icon-envelop"></span> <a href="mailto:contact@cruzzapps.com">    contact@cruzzapps.com</a>
+              					</p>
+              </div>
+              <div class="col-sm-6 centered">
+                      <form action="MAILTO:contact@cruzzapps.com" method="post" enctype="text/plain">
+                      <p style="text-align:left;">Imię i nazwisko:<br>
+                      <input type="text" name="name" placeholder="Imię i nazwisko..." class="form-control"><br>
+                      E-mail:<br>
+                      <input type="email" name="mail" placeholder="Twój e-mail..." class="form-control"><br>
+                      Wiadomość:<br>
+                      <input type="text" name="comment" placeholder="Treść wiadomości..." size="50" class="form-control"></p><br>
+                      <input type="submit" value="Wyślij!" class="btn btn-own btn-lg">
+            </div>
+              <div class="col-sm-6 centered">
+                  <!-- Google+ button -->
+                  <div class="g-follow" data-annotation="bubble" data-height="20" data-href="//plus.google.com/u/0/111329459877201127451" data-rel="publisher"></div>
+                  <!-- FaceBook plugin -->
+                  <div class="fb-page" data-href="https://www.facebook.com/cruzzapps" data-width="400" data-height="200" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true" style="padding-top:30px;"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/cruzzapps"><a href="https://www.facebook.com/cruzzapps">CruzzApps:com - Web developers</a></blockquote></div></div>
+                  <!-- FaceBook plugin end -->
+              </div>
           </div>
     </div>
+    <div class="footer">
+      ©2015 Copyright by <a href="http://www.cruzzapps.com/" target="_blank">CruzzApps:com</a>
+    </div>
+
+<!-- JavaScripts for faster loading of page. -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/modernizer.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/smoothscroll.js"></script>
+<script src="assets/js/navbar.js"></script>
 
 </body>
 </html>
