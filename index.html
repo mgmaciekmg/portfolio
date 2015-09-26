@@ -78,7 +78,7 @@
       <div class="content">
         <h1>CruzzApps:com - Web Developers</h1>
         <h2>tworzymy strony z pasją...</h2><br><br><br>
-        <a href="#about" class="btn btn-primary btn-lg smoothScroll">Poznaj nas!</a>
+        <a href="#about" class="btn btn-primary btn-lg smoothScroll">Poznaj nas! <span class="glyphicon glyphicon-ok"></span></a>
       </div>
       <div id="startchange"></div>
     </div>
@@ -94,7 +94,7 @@
               </div>
 
               <div class="col-sm-6 centered">
-                <p>Tworzymy responsywne strony internetowe pisane w "czystym" html'u oraz w Ruby on Rails.
+                <p>Tworzymy responsywne strony internetowe napisane w HTML'u (front-end) oraz w Ruby on Rails (back-end).
                 Korzystamy także z technologii takich jak Bootstrap czy JQuery.
                 <br>
                 <br>
@@ -175,13 +175,13 @@
               					</p>
               </div>
               <div class="col-sm-6 centered">
-                      <form action="MAILTO:contact@cruzzapps.com" method="post" enctype="text/plain">
+                      <form method="post" action="send.php">
                       <p style="text-align:left;">Imię i nazwisko:<br>
-                      <input type="text" name="name" placeholder="Imię i nazwisko..." class="form-control"><br>
+                      <input type="text" name="Name" placeholder="Imię i nazwisko..." class="form-control" id="Name" /><br>
                       E-mail:<br>
-                      <input type="email" name="mail" placeholder="Twój e-mail..." class="form-control"><br>
+                      <input type="email" name="Email" placeholder="Twój e-mail..." class="form-control" id="Email" /><br>
                       Wiadomość:<br>
-                      <input type="text" name="comment" placeholder="Treść wiadomości..." size="50" class="form-control"></p><br>
+                      <textarea name="Content" rows="6" cols="20" placeholder="Treść wiadomości..." size="50" class="form-control" id="Content"></textarea></p><br>
                       <input type="submit" value="Wyślij!" class="btn btn-own btn-lg">
             </div>
               <div class="col-sm-6 centered">
@@ -194,7 +194,7 @@
           </div>
     </div>
     <div class="footer">
-      ©2015 Copyright by <a href="http://www.cruzzapps.com/" target="_blank">CruzzApps:com</a>
+      ©2015 Designed by <a href="http://www.cruzzapps.com/" target="_blank">CruzzApps:com</a>. All rights reserved.
     </div>
 
 <!-- JavaScripts for faster loading of page. -->
