@@ -72,15 +72,17 @@ h2 {
 .headerwrap .btn {
   background-color: rgba(255, 130, 0, 0.5);
   border: 3px solid rgb(231, 108, 3);
-  border-radius: 0;
-  width: 150px;
+  border-radius: 25px;
+  width: 180px;
   color: white;
+  font-size: 23px;
+  font-weight: bold;
 }
 
 .headerwrap .btn:hover {
-  -webkit-box-shadow: 10px 20px 200px 45px rgba(231, 108, 3, 0.4);
-  -moz-box-shadow: 10px 20px 200px 45px rgba(231, 108, 3, 0.4);
-  box-shadow: 10px 20px 200px 45px rgba(231, 108, 3, 0.4);
+  -webkit-box-shadow: 10px 20px 200px 30px rgba(231, 108, 3, 0.3);
+  -moz-box-shadow: 10px 20px 200px 30px rgba(231, 108, 3, 0.3);
+  box-shadow: 10px 20px 200px 30px rgba(231, 108, 3, 0.3);
 }
 
 .navbar-fixed-top {
