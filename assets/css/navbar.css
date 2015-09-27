@@ -10,7 +10,7 @@ h2 {
 
 .jumbotron {
   background-color: rgba(255, 255, 255, 0);
-  min-height: 500px;
+  height: 100%;
   text-align: center;
 }
 
@@ -47,7 +47,7 @@ h2 {
 .headerwrap {
 	background: url(../img/header.jpg) no-repeat !important;
   background-attachment: fixed;
-  height: 750px;
+  height: 100%;
   background-size: 100% !important;
   overflow: hidden;
   top: -70px;
@@ -245,11 +245,23 @@ ul.nav a:hover { border: none; }
 .headerwrap {
 	background: url(../img/header.jpg) no-repeat !important;
   background-attachment: fixed;
-  height: 750px;
+  height: 100%;
   background-size: cover !important;
   width: 100%;
   overflow: hidden;
   top: -70px;
   position: relative;
 }
+}
+
+.slide {
+  width: 25px;
+  height: 25px;
+  background-color: rgba(231, 108, 3, 0.4);
+  color: white;
+  padding-top: 3px;
+  text-align: center;
+  right: 35px;
+  bottom: 40px;
+  position: fixed;
 }
