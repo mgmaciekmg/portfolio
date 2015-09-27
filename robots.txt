@@ -1,0 +1,5 @@
+User-Agent: *
+Disallow:
+Disallow: /assets
+
+Sitemap: http://www.cruzzapps.com/sitemap.xml

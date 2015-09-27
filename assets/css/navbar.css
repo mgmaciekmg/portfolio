@@ -242,4 +242,14 @@ ul.nav a:hover { border: none; }
   margin: auto;
   padding: 120px 0;
 }
+.headerwrap {
+	background: url(../img/header.jpg) no-repeat !important;
+  background-attachment: fixed;
+  height: 750px;
+  background-size: cover !important;
+  width: 100%;
+  overflow: hidden;
+  top: -70px;
+  position: relative;
+}
 }
